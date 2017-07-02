@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>signup</title>
+    <style>
+        .left {
+            width: 50%;
+            height: 100vh;
+            background-color: #FE6A78;
+
+        }
+        .right{
+            width: 50%;
+            height: 100vh;
+            background-color: #2E3D51;
+        }
+        .leftandright {
+            display: -webkit-box;
+        }
+        form {
+            display: inline-grid;
+            margin-left: 63px;
+            color: lightgray;
+            width: 80%;
+        }
+        .title {
+            margin-left: 63px;
+            color: #FE6A78;
+        }
+        button {
+            width: 100px;
+            background-color: #FE6A78;
+            margin-top: 26px;
+            height: 40px;
+            width: 110px;
+            border-radius: 30px;
+            border: none;
+        }
+        input {
+            background-color: #2E3D51;
+            border: none;
+            border-bottom: 1px solid lightslategrey;
+        }
+        .alreay-member {
+            margin-left: 261px;
+            margin-top: 42px;
+            color: lightslategrey;
+        }
+        .inline {
+            display: -webkit-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="leftandright">
+        <div class="left">
+            <img src="dog.gif" alt="dog.gif">
+        </div>
+        <div class="right">
+            <h1 class="title">SIGN UP</h1>
+            <form action="">
+                usernmae <br>
+                <input type="text" name="username" id="">
+                email <br>
+                <input type="text" name="email" id="">
+                password <br>
+                <input type="text" name="password" id="">
+                repeatpassword <br>
+                <input type="text" name="repeatpassword" id="">
+                <div class="inline">
+                    <button type="submit">signup</button>
+                    <p class="alreay-member">im already member</p>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
